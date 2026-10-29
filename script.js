@@ -96,4 +96,10 @@ ctx.arc(450, 240, 10, 0, 2 * Math.PI);
 ctx.fillStyle = "black";
 ctx.fill();
 
+//eye gleam
+ctx.beginPath();
+ctx.arc(455, 235, 2, 0, 2 * Math.PI);
+ctx.fillStyle = "white";
+ctx.fill();
+
 
